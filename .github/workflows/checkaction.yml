@@ -1,0 +1,13 @@
+name: Test Action with Email Step
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: windows-latest
+    steps:
+      - name: 23f3001458@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
